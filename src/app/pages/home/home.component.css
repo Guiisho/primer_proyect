@@ -1,0 +1,39 @@
+p:last-child {
+    margin-bottom: 0;
+}
+p:first-child {
+    margin-top: 0;
+}
+p {
+    margin-bottom: 1rem;
+}
+p {
+    overflow-wrap: break-word;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.elaboration {
+    border-bottom: 2px solid #caab80;
+    color: #A38C6C;
+    font-size: calc(1rem + 0.5vw);
+    line-height: 1.4;
+    margin-top: calc(1rem + 2vw);
+    padding-bottom: 1.5rem;
+}
+.article-elements__content {
+    font-family: "freight-text-pro", serif;
+    max-width: 58rem;
+}
+.main {
+    color: #4A4C50;
+    padding-bottom: calc(3rem + 3vw);
+}
